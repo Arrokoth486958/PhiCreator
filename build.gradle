@@ -1,0 +1,38 @@
+plugins {
+    id 'java'
+    id 'application'
+    id 'com.github.johnrengelman.shadow' version '7.0.0'
+}
+
+group 'dev.arrokoth.phigcreator'
+version 'v0.1.0-dev'
+
+sourceCompatibility = 8
+targetCompatibility = 8
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testImplementation 'org.junit.jupiter:junit-jupiter-api:5.8.1'
+    testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.8.1'
+    implementation "org.json:json:20210307"
+    implementation "com.formdev:flatlaf:1.6.1"
+
+    implementation fileTree(dir: 'libs', include:['*.jar'])
+}
+
+application {
+    mainClassName = 'dev.arrokoth.phigcreator.PhigCreator'
+}
+
+jar {
+    manifest {
+        attributes 'Main-Class': mainClassName
+    }
+}
+
+test {
+    useJUnitPlatform()
+}

@@ -1,0 +1,23 @@
+{
+    "TITLE_MAIN": "PhigCreator - %s",
+    "TITLE_CREATE_PROJECT": "新建项目",
+
+    "BUTTON_RETURN": "返回",
+    "BUTTON_CREATE":"创建",
+
+    "MENU_FILE": "文件",
+    "MENU_FILE_CREATE": "新建项目",
+    "MENU_FILE_OPEN": "打开项目",
+    "MENU_RECENT_PROJECT": "最近项目",
+    "MENU_FILE_IMPORT": "导入项目",
+    "MENU_FILE_EXPORT": "导出项目",
+    "MENU_FILE_EXIT": "退出",
+
+    "TAB_PROJECT_SETTINGS": "项目配置",
+    "PROJECT_NAME_INPUT": "项目名称：",
+    "PROJECT_PATH_INPUT": "项目路径：",
+    "PROJECT_AUTHOR_INPUT": "作者名称：",
+
+    "MESSAGE_TITLE_ERROR": "错误",
+    "MESSAGE_UNAVAILABLE_PATH": "不可用的路径\"%s\"，该路径并非文件夹或文件夹并非为空！"
+}

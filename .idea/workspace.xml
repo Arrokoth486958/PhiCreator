@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="e6baf11f-311a-4032-8317-813a6ad8364e" name="变更" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dev/arrokoth/phigcreator/PhigCreator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dev/arrokoth/phigcreator/frame/CreateProjectWindow.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dev/arrokoth/phigcreator/frame/EditorPane.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dev/arrokoth/phigcreator/frame/EditorWindow.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dev/arrokoth/phigcreator/frame/icon/FlatPlayIcon.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dev/arrokoth/phigcreator/i18n/Locale.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dev/arrokoth/phigcreator/i18n/LocalizationManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dev/arrokoth/phigcreator/phi/chart/Chart.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dev/arrokoth/phigcreator/phi/chart/Line.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dev/arrokoth/phigcreator/phi/chart/Note.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dev/arrokoth/phigcreator/phi/chart/event/ChartEvent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dev/arrokoth/phigcreator/phi/chart/event/LineEvent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dev/arrokoth/phigcreator/phi/chart/event/NoteEvent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dev/arrokoth/phigcreator/phi/editor/Project.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dev/arrokoth/phigcreator/phi/level/Level.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dev/arrokoth/phigcreator/phi/simulator/Simulator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dev/arrokoth/phigcreator/phi/simulator/SimulatorClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dev/arrokoth/phigcreator/util/Utils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/i18n/en_us.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/i18n/zh_cn.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/textures/icon_simulator.png" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MacroExpansionManager">
+    <option name="directoryName" value="wge4bl4d" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="2" />
+  </component>
+  <component name="ProjectId" id="2LSpbr5balYZ9zzrepfAeMcl5N8" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "dart.analysis.tool.window.visible": "false",
+    "last_opened_file_path": "E:/PhigCreator/src/main/resources/textures",
+    "project.structure.last.edited": "项目",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "show.migrate.to.gradle.popup": "false"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\PhigCreator\src\main\resources\textures" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\PhigCreator\src\main\java\dev\arrokoth\phigcreator\frame" />
+    </key>
+  </component>
+  <component name="RunManager" selected="应用程序.PhigCreator">
+    <configuration name="PhigCreator" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dev.arrokoth.phigcreator.PhigCreator" />
+      <module name="PhigCreator.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="dev.arrokoth.phigcreator.frame.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PhigCreator [build]" type="GradleRunConfiguration" factoryName="Gradle" nameIsGenerated="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="build" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Gradle.PhigCreator [build]" />
+      <item itemvalue="应用程序.PhigCreator" />
+    </list>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="应用程序级" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="默认任务">
+      <changelist id="e6baf11f-311a-4032-8317-813a6ad8364e" name="变更" comment="" />
+      <created>1675874414180</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1675874414180</updated>
+    </task>
+    <servers />
+  </component>
+</project>
