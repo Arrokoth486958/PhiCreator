@@ -1,7 +1,6 @@
 package dev.arrokoth.phigcreator.util;
 
 import com.formdev.flatlaf.icons.FlatAbstractIcon;
-import com.formdev.flatlaf.icons.FlatFileViewDirectoryIcon;
 
 import javax.swing.*;
 import java.awt.*;
@@ -18,6 +17,8 @@ import java.util.Objects;
  * @copyright Copyright © 2023 Arrokoth All Rights Reserved.
  */
 public class Utils {
+    public static final double CLASS_VERSION = Double.parseDouble(System.getProperty("java.class.version"));
+
     public static Image createFlatIcon(Class<? extends FlatAbstractIcon> iconClass) throws Exception {
         return createFlatIcon(iconClass, 18, 18, 1, 1);
     }
@@ -44,19 +45,22 @@ public class Utils {
 
     public static byte[] readStream(InputStream stream) {
         try {
-//            ByteArrayOutputStream buffer = new ByteArrayOutputStream();
-//            int read;
-//            byte[] bytes = new byte[4096];
-//
-//            while ((read = stream.read(bytes, 0, bytes.length)) != -1) {
-//                buffer.write(bytes, 0, read);
-//            }
-//            byte[] out = buffer.toByteArray();
-//            buffer.flush();
-//            buffer.close();
-//
-//            return out;
-            return stream.readAllBytes();
+            if (CLASS_VERSION <= 52) {
+                ByteArrayOutputStream buffer = new ByteArrayOutputStream();
+                int read;
+                byte[] bytes = new byte[4096];
+
+                while ((read = stream.read(bytes, 0, bytes.length)) != -1) {
+                    buffer.write(bytes, 0, read);
+                }
+                byte[] out = buffer.toByteArray();
+                buffer.flush();
+                buffer.close();
+
+                return out;
+            } else {
+                return stream.readAllBytes();
+            }
         } catch (IOException e) {
             throw new RuntimeException(e);
         }
