@@ -1,13 +1,9 @@
 package dev.arrokoth.phigcreator;
 
-import com.formdev.flatlaf.FlatDarculaLaf;
-import com.formdev.flatlaf.FlatDarkLaf;
-import com.formdev.flatlaf.FlatIntelliJLaf;
 import dev.arrokoth.phigcreator.frame.EditorWindow;
 import dev.arrokoth.phigcreator.util.Utils;
 
 import javax.swing.*;
-import java.io.File;
 
 /**
  * @author Arrokoth

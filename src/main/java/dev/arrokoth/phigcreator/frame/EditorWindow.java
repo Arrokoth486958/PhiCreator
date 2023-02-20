@@ -8,17 +8,12 @@ import dev.arrokoth.phigcreator.frame.icon.FlatPlayIcon;
 import dev.arrokoth.phigcreator.i18n.LocalizationManager;
 import dev.arrokoth.phigcreator.phi.chart.Note;
 import dev.arrokoth.phigcreator.phi.editor.Project;
-import dev.arrokoth.phigcreator.phi.level.Level;
 import dev.arrokoth.phigcreator.phi.simulator.Simulator;
 import dev.arrokoth.phigcreator.util.Utils;
 
 import javax.imageio.ImageIO;
 import javax.swing.*;
-import javax.swing.event.AncestorEvent;
-import javax.swing.event.AncestorListener;
 import java.awt.*;
-import java.awt.event.KeyEvent;
-import java.awt.event.KeyListener;
 import java.awt.event.WindowAdapter;
 import java.awt.event.WindowEvent;
 import java.io.IOException;
