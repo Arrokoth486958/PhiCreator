@@ -3,6 +3,7 @@ package dev.arrokoth.phigcreator.frame;
 import com.formdev.flatlaf.FlatDarkLaf;
 import com.formdev.flatlaf.icons.*;
 import dev.arrokoth.phigcreator.PhigCreator;
+import dev.arrokoth.phigcreator.config.Configuration;
 import dev.arrokoth.phigcreator.frame.icon.FlatPlayIcon;
 import dev.arrokoth.phigcreator.i18n.LocalizationManager;
 import dev.arrokoth.phigcreator.phi.chart.Note;
@@ -16,6 +17,10 @@ import javax.swing.*;
 import javax.swing.event.AncestorEvent;
 import javax.swing.event.AncestorListener;
 import java.awt.*;
+import java.awt.event.KeyEvent;
+import java.awt.event.KeyListener;
+import java.awt.event.WindowAdapter;
+import java.awt.event.WindowEvent;
 import java.io.IOException;
 
 /**
@@ -24,7 +29,7 @@ import java.io.IOException;
  * @copyright Copyright © 2023 Arrokoth All Rights Reserved.
  */
 public class EditorWindow {
-    public static Project project = null;
+    public static Project project = Configuration.CONFIG.getProject();
     public final JFrame frame;
 
     public EditorWindow() {
@@ -42,6 +47,14 @@ public class EditorWindow {
 
             createMenuBar();
             createEditor();
+
+            frame.addWindowListener(new WindowAdapter() {
+                @Override
+                public void windowClosing(WindowEvent e) {
+                    Configuration.CONFIG.setProject(project);
+                    Configuration.CONFIG.save();
+                }
+            });
         } catch (Exception e) {
             throw new RuntimeException(e);
         }
@@ -111,20 +124,6 @@ public class EditorWindow {
         JSplitPane splitPane = new JSplitPane();
         rootPane.add(splitPane, BorderLayout.CENTER);
 
-        splitPane.setDividerLocation(0.9f);
-        splitPane.addAncestorListener(new AncestorListener() {
-            @Override
-            public void ancestorAdded(AncestorEvent event) {
-            }
-
-            @Override
-            public void ancestorRemoved(AncestorEvent event) {
-            }
-
-            @Override
-            public void ancestorMoved(AncestorEvent event) {
-            }
-        });
         splitPane.setDividerLocation((int) (this.frame.getWidth() * 0.8f));
         splitPane.setResizeWeight(1);
 

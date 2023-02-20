@@ -6,6 +6,7 @@ import javax.swing.*;
 import java.awt.*;
 import java.awt.image.BufferedImage;
 import java.io.ByteArrayOutputStream;
+import java.io.File;
 import java.io.IOException;
 import java.io.InputStream;
 import java.net.URL;
@@ -18,6 +19,7 @@ import java.util.Objects;
  */
 public class Utils {
     public static final double CLASS_VERSION = Double.parseDouble(System.getProperty("java.class.version"));
+    public static final File CURRENT_DIRECTORY = new File("").getAbsoluteFile();
 
     public static Image createFlatIcon(Class<? extends FlatAbstractIcon> iconClass) throws Exception {
         return createFlatIcon(iconClass, 18, 18, 1, 1);

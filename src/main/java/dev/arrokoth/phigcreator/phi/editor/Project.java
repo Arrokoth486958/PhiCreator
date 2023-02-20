@@ -14,7 +14,7 @@ import java.util.ArrayList;
  * @copyright Copyright © 2023 Arrokoth All Rights Reserved.
  */
 public class Project {
-    protected final File root;
+    public final File root;
     public final Chart chart;
 
     public Project(File root, double bps) {

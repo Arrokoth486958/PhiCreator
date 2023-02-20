@@ -7,7 +7,7 @@ import dev.arrokoth.phigcreator.phi.level.Level;
  * @project PhigCreator
  * @copyright Copyright © 2023 Arrokoth All Rights Reserved.
  */
-public class LineEvent extends ChartEvent {
+public class LineMoveEvent extends ChartEvent {
     public void handle(Level level, int target) {
     }
 }

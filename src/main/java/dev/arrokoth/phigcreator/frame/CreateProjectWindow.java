@@ -9,9 +9,13 @@ import dev.arrokoth.phigcreator.util.Utils;
 import javax.imageio.ImageIO;
 import javax.swing.*;
 import java.awt.*;
+import java.awt.event.KeyAdapter;
+import java.awt.event.KeyEvent;
+import java.awt.event.KeyListener;
 import java.awt.image.BufferedImage;
 import java.io.File;
 import java.io.IOException;
+import java.util.Arrays;
 import java.util.Objects;
 
 /**
@@ -42,7 +46,7 @@ public class CreateProjectWindow extends JDialog {
             pane.add(tabbedPane, BorderLayout.CENTER);
 
             setupNameTab(tabbedPane);
-    //            setupExtendTab(tabbedPane);
+//            setupExtendTab(tabbedPane);
 
             // Bottom bar
             JPanel bottomPane = new JPanel();
@@ -131,7 +135,7 @@ public class CreateProjectWindow extends JDialog {
         JPanel pathInputPane = new JPanel();
         pathInputPane.setLayout(new FlowLayout(FlowLayout.RIGHT, 0, 0));
 
-        pathInput = new JTextField(new File(PhigCreator.CURRENT_DIRECTORY, "New Project").getAbsolutePath());
+        pathInput = new JTextField(new File(Utils.CURRENT_DIRECTORY, "New Project").getAbsolutePath());
         pathInput.setPreferredSize(new Dimension(208, 24));
         pathInputPane.add(pathInput);
         pathInputPane.add(Box.createRigidArea(new Dimension(8, 1)));
@@ -141,7 +145,7 @@ public class CreateProjectWindow extends JDialog {
         pathSelector.setPreferredSize(new Dimension(24, 24));
         pathInputPane.add(pathSelector);
         pathSelector.addActionListener(e -> {
-            JFileChooser fileChooser = new JFileChooser(new File(pathInput.getText()).exists() ? new File(pathInput.getText()) : PhigCreator.CURRENT_DIRECTORY);
+            JFileChooser fileChooser = new JFileChooser(new File(pathInput.getText()).exists() ? new File(pathInput.getText()) : Utils.CURRENT_DIRECTORY);
             fileChooser.setFileSelectionMode(JFileChooser.DIRECTORIES_ONLY);
             if (fileChooser.showOpenDialog(new JPanel()) == JFileChooser.APPROVE_OPTION) {
                 pathInput.setText(fileChooser.getSelectedFile().getAbsolutePath());
