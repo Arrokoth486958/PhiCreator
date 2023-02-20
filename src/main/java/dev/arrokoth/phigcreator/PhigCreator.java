@@ -15,7 +15,7 @@ import java.io.File;
  * @copyright Copyright © 2023 Arrokoth All Rights Reserved.
  */
 public class PhigCreator implements Runnable {
-    public static final boolean DEBUG = false;
+    public static final boolean DEBUG = true;
     public static final String VERSION = "v0.1.0-dev";
 
     private static PhigCreator INSTANCE = null;
