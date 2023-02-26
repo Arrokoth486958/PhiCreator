@@ -1,5 +1,5 @@
 {
-    "TITLE_MAIN": "PhigCreator - %s",
+    "TITLE_EDITOR": "PhiCreator - %s",
     "TITLE_CREATE_PROJECT": "Create Project",
 
     "BUTTON_RETURN": "Return",
@@ -13,11 +13,16 @@
     "MENU_FILE_EXPORT": "Export Project",
     "MENU_FILE_EXIT": "Exit",
 
-    "TAB_PROJECT_SETTINGS": "Project Settings",
-    "PROJECT_NAME_INPUT": "Project name:",
-    "PROJECT_PATH_INPUT": "Project Path:",
-    "PROJECT_AUTHOR_INPUT": "Author Name:",
+    "TAB_PROJECT_BASIC": "Project Settings",
+    "PROJECT_BASIC_NAME": "Project name:",
+    "PROJECT_BASIC_PATH": "Project Path:",
+    "PROJECT_BASIC_AUTHOR": "Author Name:",
+
+    "TAB_PROJECT_CHART": "Advanced Settings",
+    "PROJECT_CHART_MUSIC": "Chart Music",
 
     "MESSAGE_TITLE_ERROR": "Error",
-    "MESSAGE_UNAVAILABLE_PATH": "Unavailable Path \"%s\", the is not a directory or the directory isn't empty!"
+    "MESSAGE_UNAVAILABLE_PATH": "Unavailable Path \"%s\", the is not a directory or the directory isn't empty!",
+
+    "SIMULATOR_TITLE": "PhigSimulator"
 }

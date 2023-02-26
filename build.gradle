@@ -4,7 +4,7 @@ plugins {
     id 'com.github.johnrengelman.shadow' version '7.0.0'
 }
 
-group 'dev.arrokoth.phigcreator'
+group 'dev.arrokoth.phicreator'
 version 'v0.1.0-dev'
 
 sourceCompatibility = 8
@@ -24,7 +24,7 @@ dependencies {
 }
 
 application {
-    mainClassName = 'dev.arrokoth.phigcreator.PhigCreator'
+    mainClassName = 'dev.arrokoth.phicreator.PhiCreator'
 }
 
 jar {

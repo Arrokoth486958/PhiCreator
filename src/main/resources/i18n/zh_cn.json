@@ -1,5 +1,5 @@
 {
-    "TITLE_MAIN": "PhigCreator - %s",
+    "TITLE_EDITOR": "PhiCreator - %s",
     "TITLE_CREATE_PROJECT": "新建项目",
 
     "BUTTON_RETURN": "返回",
@@ -13,11 +13,16 @@
     "MENU_FILE_EXPORT": "导出项目",
     "MENU_FILE_EXIT": "退出",
 
-    "TAB_PROJECT_SETTINGS": "项目配置",
-    "PROJECT_NAME_INPUT": "项目名称：",
-    "PROJECT_PATH_INPUT": "项目路径：",
-    "PROJECT_AUTHOR_INPUT": "作者名称：",
+    "TAB_PROJECT_BASIC": "项目配置",
+    "PROJECT_BASIC_NAME": "项目名称：",
+    "PROJECT_BASIC_PATH": "项目路径：",
+    "PROJECT_BASIC_AUTHOR": "作者名称：",
+
+    "TAB_PROJECT_CHART": "谱面设置",
+    "PROJECT_CHART_MUSIC": "谱面音乐",
 
     "MESSAGE_TITLE_ERROR": "错误",
-    "MESSAGE_UNAVAILABLE_PATH": "不可用的路径\"%s\"，该路径并非文件夹或文件夹并非为空！"
+    "MESSAGE_UNAVAILABLE_PATH": "不可用的路径\"%s\"，该路径并非文件夹或文件夹并非为空！",
+
+    "SIMULATOR_TITLE": "PhigSimulator"
 }
