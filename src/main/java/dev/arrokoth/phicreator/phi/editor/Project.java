@@ -1,7 +1,7 @@
 package dev.arrokoth.phicreator.phi.editor;
 
-import dev.arrokoth.phicreator.phi.chart.Chart;
-import dev.arrokoth.phicreator.util.Utils;
+import dev.arrokoth.phicreator.chart.phi.chart.Chart;
+//import dev.arrokoth.phicreator.phi.chart.Chart;
 
 import javax.imageio.ImageIO;
 import java.io.File;
@@ -20,10 +20,11 @@ public class Project {
     public Project(File root, double bps) {
         this.root = root;
         // TODO: Chart loading
-        try {
-            this.chart = new Chart(bps, new ArrayList<>(), new ArrayList<>(), ImageIO.read(ClassLoader.getSystemResource("textures/icon.png")));
-        } catch (IOException e) {
-            throw new RuntimeException(e);
-        }
+        this.chart = new Chart();
+//        try {
+//            this.chart = new Chart(bps, new ArrayList<>(), new ArrayList<>(), ImageIO.read(ClassLoader.getSystemResource("textures/icon.png")));
+//        } catch (IOException e) {
+//            throw new RuntimeException(e);
+//        }
     }
 }
