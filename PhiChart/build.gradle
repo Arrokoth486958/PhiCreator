@@ -2,7 +2,7 @@ plugins {
     id 'java'
 }
 
-group 'dev.arrokoth.phicreator.level'
+group 'dev.arrokoth.phicreator.chart'
 version 'v0.1.0-dev'
 
 repositories {

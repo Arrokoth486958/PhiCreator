@@ -4,8 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e6baf11f-311a-4032-8317-813a6ad8364e" name="变更" comment="Upload ev↑er↓yt↑hi↓ng↑">
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+    <list default="true" id="e6baf11f-311a-4032-8317-813a6ad8364e" name="变更" comment="Readme">
+      <change beforePath="$PROJECT_DIR$/PhiLevel/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PhiLevel/src/main/java/dev/arrokoth/phicreator/level/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/PhiChart/src/main/java/dev/arrokoth/phicreator/chart/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,6 +55,24 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <favorite-branches>
+      <branch-storage>
+        <map>
+          <entry type="REMOTE">
+            <value>
+              <list>
+                <branch-info repo="$PROJECT_DIR$" source="origin/main" />
+              </list>
+            </value>
+          </entry>
+        </map>
+      </branch-storage>
+    </favorite-branches>
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
@@ -211,7 +231,14 @@
       <option name="project" value="LOCAL" />
       <updated>1677533315829</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Readme">
+      <created>1677533372969</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1677533372969</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -231,6 +258,7 @@
     <MESSAGE value="Removed some unused imports" />
     <MESSAGE value="Re-build" />
     <MESSAGE value="Upload ev↑er↓yt↑hi↓ng↑" />
-    <option name="LAST_COMMIT_MESSAGE" value="Upload ev↑er↓yt↑hi↓ng↑" />
+    <MESSAGE value="Readme" />
+    <option name="LAST_COMMIT_MESSAGE" value="Readme" />
   </component>
 </project>

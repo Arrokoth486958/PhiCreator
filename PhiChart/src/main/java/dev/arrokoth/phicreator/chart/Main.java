@@ -1,4 +1,4 @@
-package dev.arrokoth.phicreator.level;
+package dev.arrokoth.phicreator.chart;
 
 /**
  * @author ${USER}

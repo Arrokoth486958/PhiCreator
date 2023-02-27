@@ -2,4 +2,5 @@ rootProject.name = 'PhiCreator'
 include 'PhiPlayer'
 include 'PhiLevel'
 include 'PhiLevel'
+include 'PhiChart'
 
