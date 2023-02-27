@@ -54,6 +54,7 @@ public class Utils {
         return readStream(Objects.requireNonNull(ClassLoader.getSystemResourceAsStream(path)));
     }
 
+    @SuppressWarnings("Since15")
     public static byte[] readStream(InputStream stream) {
         try {
             if (CLASS_VERSION <= 52) {

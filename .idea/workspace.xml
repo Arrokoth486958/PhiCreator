@@ -4,48 +4,25 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e6baf11f-311a-4032-8317-813a6ad8364e" name="变更" comment="Removed some unused imports">
-      <change afterPath="$PROJECT_DIR$/src/main/java/dev/arrokoth/phicreator/editor/Editor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dev/arrokoth/phicreator/editor/EditorWindow.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dev/arrokoth/phicreator/editor/icon/Icons.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dev/arrokoth/phicreator/phi/chart/event/ChartEvent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dev/arrokoth/phicreator/phi/chart/event/LineMoveEvent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dev/arrokoth/phicreator/phi/chart/event/NoteMoveEvent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dev/arrokoth/phicreator/phi/simulator/SimulatorClient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+    <list default="true" id="e6baf11f-311a-4032-8317-813a6ad8364e" name="变更" comment="Re-build">
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PhiLevel/src/main/java/dev/arrokoth/phicreator/level/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PhiPlayer/src/main/java/dev/arrokoth/phicreator/player/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dev/arrokoth/phicreator/editor/NoProjectPane.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dev/arrokoth/phicreator/editor/controls/JNumberInput.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dev/arrokoth/phigcreator/PhigCreator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dev/arrokoth/phicreator/PhiCreator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dev/arrokoth/phigcreator/config/Configuration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dev/arrokoth/phicreator/config/Configuration.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dev/arrokoth/phigcreator/frame/CreateProjectWindow.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dev/arrokoth/phicreator/editor/CreateProjectWindow.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dev/arrokoth/phigcreator/frame/EditorPane.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dev/arrokoth/phigcreator/frame/EditorWindow.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dev/arrokoth/phigcreator/frame/icon/FlatPlayIcon.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dev/arrokoth/phicreator/editor/icon/FlatPlayIcon.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dev/arrokoth/phigcreator/i18n/Locale.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dev/arrokoth/phicreator/i18n/Locale.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dev/arrokoth/phigcreator/i18n/LocalizationManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dev/arrokoth/phicreator/i18n/LocalizationManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dev/arrokoth/phigcreator/phi/chart/Chart.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dev/arrokoth/phicreator/phi/chart/Chart.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dev/arrokoth/phigcreator/phi/chart/Line.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dev/arrokoth/phicreator/phi/chart/Line.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dev/arrokoth/phigcreator/phi/chart/Note.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dev/arrokoth/phicreator/phi/chart/Note.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dev/arrokoth/phigcreator/phi/chart/event/ChartEvent.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dev/arrokoth/phigcreator/phi/chart/event/LineMoveEvent.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dev/arrokoth/phigcreator/phi/chart/event/NoteMoveEvent.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dev/arrokoth/phigcreator/phi/editor/Project.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dev/arrokoth/phicreator/phi/editor/Project.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dev/arrokoth/phigcreator/phi/level/Level.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dev/arrokoth/phicreator/phi/level/Level.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dev/arrokoth/phigcreator/phi/simulator/Simulator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dev/arrokoth/phicreator/phi/simulator/Simulator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dev/arrokoth/phigcreator/phi/simulator/SimulatorClient.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dev/arrokoth/phigcreator/util/Utils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dev/arrokoth/phicreator/util/Utils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dev/arrokoth/phicreator/config/Configuration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dev/arrokoth/phicreator/config/Configuration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dev/arrokoth/phicreator/editor/CreateProjectWindow.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dev/arrokoth/phicreator/editor/CreateProjectWindow.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dev/arrokoth/phicreator/editor/Editor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dev/arrokoth/phicreator/editor/Editor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dev/arrokoth/phicreator/editor/EditorWindow.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dev/arrokoth/phicreator/editor/EditorWindow.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dev/arrokoth/phicreator/editor/icon/Icons.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dev/arrokoth/phicreator/editor/icon/Icons.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dev/arrokoth/phicreator/phi/simulator/Simulator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dev/arrokoth/phicreator/phi/simulator/Simulator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dev/arrokoth/phicreator/util/Utils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dev/arrokoth/phicreator/util/Utils.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/i18n/en_us.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/i18n/en_us.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/i18n/zh_cn.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/i18n/zh_cn.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/textures/icon.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/textures/icon.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/textures/icon_simulator.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/textures/icon_simulator.png" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -113,6 +90,9 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="ProjectErrors" />
+  </component>
   <component name="ProjectCodeStyleSettingsMigration">
     <option name="version" value="2" />
   </component>
@@ -128,10 +108,12 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;dart.analysis.tool.window.visible&quot;: &quot;false&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;11&quot;,
     &quot;last_opened_file_path&quot;: &quot;E:/PhiCreator/build.gradle&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;项目&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;模块&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
     &quot;show.migrate.to.gradle.popup&quot;: &quot;false&quot;
   }
 }</component>
@@ -232,7 +214,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676926443340</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Re-build">
+      <created>1677409888018</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1677409888018</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -250,6 +239,7 @@
     <MESSAGE value="qwq" />
     <MESSAGE value="yee~" />
     <MESSAGE value="Removed some unused imports" />
-    <option name="LAST_COMMIT_MESSAGE" value="Removed some unused imports" />
+    <MESSAGE value="Re-build" />
+    <option name="LAST_COMMIT_MESSAGE" value="Re-build" />
   </component>
 </project>

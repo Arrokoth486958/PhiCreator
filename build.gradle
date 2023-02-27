@@ -1,6 +1,7 @@
 plugins {
     id 'java'
     id 'application'
+    id 'org.openjfx.javafxplugin' version '0.0.13'
     id 'com.github.johnrengelman.shadow' version '7.0.0'
 }
 
@@ -25,6 +26,11 @@ dependencies {
 
 application {
     mainClassName = 'dev.arrokoth.phicreator.PhiCreator'
+}
+
+javafx {
+    version = "11.0.2"
+    modules = [ 'javafx.media' ]
 }
 
 jar {

@@ -61,7 +61,4 @@ public class Simulator {
             }
         });
     }
-
-//    public static void run(Level level, int renderWidth, int renderHeight, Graphics2D parentGraphics) {
-//    }
 }

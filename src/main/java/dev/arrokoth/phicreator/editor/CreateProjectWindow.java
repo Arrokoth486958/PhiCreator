@@ -1,12 +1,14 @@
 package dev.arrokoth.phicreator.editor;
 
 import com.formdev.flatlaf.icons.FlatFileViewDirectoryIcon;
+import dev.arrokoth.phicreator.editor.controls.JNumberInput;
 import dev.arrokoth.phicreator.i18n.LocalizationManager;
 import dev.arrokoth.phicreator.phi.editor.Project;
 import dev.arrokoth.phicreator.util.Utils;
 
 import javax.imageio.ImageIO;
 import javax.swing.*;
+import javax.swing.filechooser.FileNameExtensionFilter;
 import java.awt.*;
 import java.io.File;
 import java.io.IOException;
@@ -21,6 +23,8 @@ public class CreateProjectWindow extends JDialog {
     private JTextField nameInput;
     private JTextField pathInput;
     private JTextField authorInput;
+    private JTextField musicInput;
+    private JTextField bpsInput;
 
     public CreateProjectWindow() {
         super((Dialog) null);
@@ -70,7 +74,7 @@ public class CreateProjectWindow extends JDialog {
                         System.out.println(pathInput.getText());
                         System.out.println(authorInput.getText());
                         // TODO: Dps selection
-                        Editor.project = new Project(file, 120);
+                        Editor.INSTANCE.setProject(new Project(file, 120));
                         this.dispose();
                     } else {
                         System.err.printf("Could not create a file \"%s\"\n", file.getAbsolutePath());
@@ -79,9 +83,7 @@ public class CreateProjectWindow extends JDialog {
             });
 
             JButton returnButton = new JButton(LocalizationManager.getString("BUTTON_RETURN"));
-            returnButton.addActionListener(e -> {
-                this.dispose();
-            });
+            returnButton.addActionListener(e -> this.dispose());
             bottomPane.add(returnButton);
 
             pane.add(bottomPane, BorderLayout.SOUTH);
@@ -91,13 +93,6 @@ public class CreateProjectWindow extends JDialog {
             throw new RuntimeException(e);
         }
     }
-
-//    private Image createFileChooserIconImage() {
-//        BufferedImage image = new BufferedImage(24, 24, BufferedImage.TYPE_INT_ARGB);
-//        new FlatFileViewDirectoryIcon().paintIcon(null, image.createGraphics(), 4, 4);
-//
-//        return image;
-//    }
 
     private void setupBasicTab(JTabbedPane pane) throws Exception {
         // Name
@@ -167,11 +162,12 @@ public class CreateProjectWindow extends JDialog {
         pane.addTab(LocalizationManager.getString("TAB_PROJECT_BASIC"), contentPane);
     }
 
-    private void setupChartTab(JTabbedPane pane) {
+    private void setupChartTab(JTabbedPane pane) throws Exception {
         // Name
         JPanel contentPane = new JPanel();
         contentPane.setLayout(new FlowLayout(FlowLayout.LEFT, 24, 8));
 
+        // Music
         JPanel musicPane = new JPanel();
         musicPane.setPreferredSize(new Dimension(380, 24));
         musicPane.setLayout(new BorderLayout());
@@ -179,11 +175,44 @@ public class CreateProjectWindow extends JDialog {
         JLabel musicLabel = new JLabel(LocalizationManager.getString("PROJECT_CHART_MUSIC"));
         musicPane.add(musicLabel, BorderLayout.WEST);
 
-        JTextField musicInput = new JTextField();
-        musicInput.setPreferredSize(new Dimension(240, 24));
-        musicPane.add(musicInput, BorderLayout.EAST);
+        JPanel musicInputPane = new JPanel();
+        musicInputPane.setLayout(new FlowLayout(FlowLayout.RIGHT, 0, 0));
+
+        musicInput = new JTextField("");
+        musicInput.setPreferredSize(new Dimension(208, 24));
+        musicInputPane.add(musicInput);
+        musicInputPane.add(Box.createRigidArea(new Dimension(8, 1)));
+
+        JButton musicSelector = new JButton();
+        musicSelector.setIcon(new ImageIcon(Utils.createFlatIcon(FlatFileViewDirectoryIcon.class)));
+        musicSelector.setPreferredSize(new Dimension(24, 24));
+        musicInputPane.add(musicSelector);
+        musicSelector.addActionListener(e -> {
+            JFileChooser fileChooser = new JFileChooser(new File(musicInput.getText()).exists() ? new File(musicInput.getText()) : Utils.CURRENT_DIRECTORY);
+            fileChooser.setFileSelectionMode(JFileChooser.FILES_ONLY);
+            fileChooser.setFileFilter(new FileNameExtensionFilter(LocalizationManager.getString("FILE_CHOOSER_TYPE_MUSIC"),"ogg","mp3","wav"));
+            if (fileChooser.showOpenDialog(new JPanel()) == JFileChooser.APPROVE_OPTION) {
+                musicInput.setText(fileChooser.getSelectedFile().getAbsolutePath());
+            }
+        });
+
+        musicPane.add(musicInputPane, BorderLayout.EAST);
 
         contentPane.add(musicPane);
+
+        // Bps
+        JPanel bpsPane = new JPanel();
+        bpsPane.setPreferredSize(new Dimension(380, 24));
+        bpsPane.setLayout(new BorderLayout());
+
+        JLabel bpsLabel = new JLabel(LocalizationManager.getString("PROJECT_CHART_BPS"));
+        bpsPane.add(bpsLabel, BorderLayout.WEST);
+
+        bpsInput = new JNumberInput("120.0");
+        bpsInput.setPreferredSize(new Dimension(240, 24));
+        bpsPane.add(bpsInput, BorderLayout.EAST);
+
+        contentPane.add(bpsPane);
 
         pane.addTab(LocalizationManager.getString("TAB_PROJECT_CHART"), contentPane);
     }

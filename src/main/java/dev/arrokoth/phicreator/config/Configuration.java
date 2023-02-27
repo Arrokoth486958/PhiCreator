@@ -2,7 +2,6 @@ package dev.arrokoth.phicreator.config;
 
 import dev.arrokoth.phicreator.phi.editor.Project;
 import dev.arrokoth.phicreator.util.Utils;
-import org.json.JSONException;
 import org.json.JSONObject;
 
 import javax.swing.*;
@@ -10,7 +9,6 @@ import java.awt.*;
 import java.io.*;
 import java.nio.charset.StandardCharsets;
 import java.nio.file.Files;
-import java.util.Collection;
 
 /**
  * @author Arrokoth

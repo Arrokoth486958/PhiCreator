@@ -30,7 +30,6 @@ public class EditorWindow extends JFrame {
             setExtendedState(NORMAL);
         }
 
-        setContentPane(new JPanel());
         layoutWindow();
 
         addWindowListener(new WindowAdapter() {
@@ -44,7 +43,6 @@ public class EditorWindow extends JFrame {
     }
 
     private void layoutWindow() {
-        getContentPane().setLayout(new FlowLayout());
 
         // Layout
         JMenuBar menuBar = new JMenuBar();
@@ -63,6 +61,7 @@ public class EditorWindow extends JFrame {
             wnd.setVisible(true);
             Utils.centerOnScreen(wnd);
         });
+        setContentPane(new NoProjectPane());
     }
 
     @Override

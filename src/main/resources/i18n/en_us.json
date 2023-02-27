@@ -20,6 +20,7 @@
 
     "TAB_PROJECT_CHART": "Advanced Settings",
     "PROJECT_CHART_MUSIC": "Chart Music",
+    "PROJECT_CHART_BPS": "Chart BPS",
 
     "MESSAGE_TITLE_ERROR": "Error",
     "MESSAGE_UNAVAILABLE_PATH": "Unavailable Path \"%s\", the is not a directory or the directory isn't empty!",

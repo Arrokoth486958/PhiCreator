@@ -20,6 +20,7 @@
 
     "TAB_PROJECT_CHART": "谱面设置",
     "PROJECT_CHART_MUSIC": "谱面音乐",
+    "PROJECT_CHART_BPS": "铺面BPS",
 
     "MESSAGE_TITLE_ERROR": "错误",
     "MESSAGE_UNAVAILABLE_PATH": "不可用的路径\"%s\"，该路径并非文件夹或文件夹并非为空！",
