@@ -4,25 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e6baf11f-311a-4032-8317-813a6ad8364e" name="变更" comment="Re-build">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PhiLevel/src/main/java/dev/arrokoth/phicreator/level/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PhiPlayer/src/main/java/dev/arrokoth/phicreator/player/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dev/arrokoth/phicreator/editor/NoProjectPane.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dev/arrokoth/phicreator/editor/controls/JNumberInput.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dev/arrokoth/phicreator/config/Configuration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dev/arrokoth/phicreator/config/Configuration.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dev/arrokoth/phicreator/editor/CreateProjectWindow.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dev/arrokoth/phicreator/editor/CreateProjectWindow.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dev/arrokoth/phicreator/editor/Editor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dev/arrokoth/phicreator/editor/Editor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dev/arrokoth/phicreator/editor/EditorWindow.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dev/arrokoth/phicreator/editor/EditorWindow.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dev/arrokoth/phicreator/editor/icon/Icons.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dev/arrokoth/phicreator/editor/icon/Icons.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dev/arrokoth/phicreator/phi/simulator/Simulator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dev/arrokoth/phicreator/phi/simulator/Simulator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dev/arrokoth/phicreator/util/Utils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dev/arrokoth/phicreator/util/Utils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/i18n/en_us.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/i18n/en_us.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/i18n/zh_cn.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/i18n/zh_cn.json" afterDir="false" />
+    <list default="true" id="e6baf11f-311a-4032-8317-813a6ad8364e" name="变更" comment="Upload ev↑er↓yt↑hi↓ng↑">
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -221,7 +204,14 @@
       <option name="project" value="LOCAL" />
       <updated>1677409888018</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Upload ev↑er↓yt↑hi↓ng↑">
+      <created>1677533315829</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1677533315829</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -240,6 +230,7 @@
     <MESSAGE value="yee~" />
     <MESSAGE value="Removed some unused imports" />
     <MESSAGE value="Re-build" />
-    <option name="LAST_COMMIT_MESSAGE" value="Re-build" />
+    <MESSAGE value="Upload ev↑er↓yt↑hi↓ng↑" />
+    <option name="LAST_COMMIT_MESSAGE" value="Upload ev↑er↓yt↑hi↓ng↑" />
   </component>
 </project>
