@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e6baf11f-311a-4032-8317-813a6ad8364e" name="变更" comment="Readme">
-      <change beforePath="$PROJECT_DIR$/PhiLevel/build.gradle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PhiLevel/src/main/java/dev/arrokoth/phicreator/level/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/PhiChart/src/main/java/dev/arrokoth/phicreator/chart/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
+    <list default="true" id="e6baf11f-311a-4032-8317-813a6ad8364e" name="变更" comment="Example Chart: Winter↓Cube↑">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -238,7 +236,14 @@
       <option name="project" value="LOCAL" />
       <updated>1677533372969</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Example Chart: Winter↓Cube↑">
+      <created>1677533837796</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1677533837796</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -259,6 +264,7 @@
     <MESSAGE value="Re-build" />
     <MESSAGE value="Upload ev↑er↓yt↑hi↓ng↑" />
     <MESSAGE value="Readme" />
-    <option name="LAST_COMMIT_MESSAGE" value="Readme" />
+    <MESSAGE value="Example Chart: Winter↓Cube↑" />
+    <option name="LAST_COMMIT_MESSAGE" value="Example Chart: Winter↓Cube↑" />
   </component>
 </project>
