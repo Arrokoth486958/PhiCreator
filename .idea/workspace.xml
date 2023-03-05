@@ -5,21 +5,30 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e6baf11f-311a-4032-8317-813a6ad8364e" name="变更" comment="Simplest things">
-      <change afterPath="$PROJECT_DIR$/PhiChart/src/main/java/dev/arrokoth/phicreator/chart/phi/chart/objects/JudgeLine.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PhiChart/src/main/java/dev/arrokoth/phicreator/chart/phi/chart/objects/LineEvent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PhiChart/src/main/java/dev/arrokoth/phicreator/chart/phi/chart/objects/LineSpeedEvent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PhiChart/src/main/java/dev/arrokoth/phicreator/chart/phi/chart/objects/Note.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PhiChart/src/main/java/dev/arrokoth/phicreator/chart/phi/chart/loader/ChartLoader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PhiChart/src/main/java/dev/arrokoth/phicreator/chart/phi/chart/loader/JSONChartLoader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PhiChart/src/main/java/dev/arrokoth/phicreator/chart/phi/chart/objects/LineDisappearEvent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PhiChart/src/main/java/dev/arrokoth/phicreator/chart/phi/chart/objects/LineMoveEvent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PhiChart/src/main/java/dev/arrokoth/phicreator/chart/phi/chart/objects/LineRotateEvent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PhiChart/src/main/java/dev/arrokoth/phicreator/chart/test/Rrharil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PhiPlayer/src/main/java/dev/arrokoth/phicreator/player/Player.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PhiPlayer/src/main/java/dev/arrokoth/phicreator/player/PlayerClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PhiPlayer/src/main/java/dev/arrokoth/phicreator/player/Textures.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PhiPlayer/src/main/java/dev/arrokoth/phicreator/player/objects/JudgeLineObject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PhiPlayer/src/main/java/dev/arrokoth/phicreator/player/objects/NoteObject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PhiPlayer/src/main/java/dev/arrokoth/phicreator/player/objects/RenderObject.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dev/arrokoth/phicreator/phi/chart/Chart.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dev/arrokoth/phicreator/phi/chart/Line.java" beforeDir="false" afterPath="$PROJECT_DIR$/PhiChart/src/main/java/dev/arrokoth/phicreator/chart/phi/chart/Chart.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dev/arrokoth/phicreator/phi/chart/Note.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dev/arrokoth/phicreator/phi/chart/event/ChartEvent.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dev/arrokoth/phicreator/phi/chart/event/LineMoveEvent.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dev/arrokoth/phicreator/phi/chart/event/NoteMoveEvent.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PhiChart/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/PhiChart/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PhiChart/src/main/java/dev/arrokoth/phicreator/chart/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PhiChart/src/main/java/dev/arrokoth/phicreator/chart/phi/chart/Chart.java" beforeDir="false" afterPath="$PROJECT_DIR$/PhiChart/src/main/java/dev/arrokoth/phicreator/chart/phi/chart/Chart.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PhiChart/src/main/java/dev/arrokoth/phicreator/chart/phi/chart/objects/JudgeLine.java" beforeDir="false" afterPath="$PROJECT_DIR$/PhiChart/src/main/java/dev/arrokoth/phicreator/chart/phi/chart/objects/JudgeLine.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PhiChart/src/main/java/dev/arrokoth/phicreator/chart/phi/chart/objects/LineSpeedEvent.java" beforeDir="false" afterPath="$PROJECT_DIR$/PhiChart/src/main/java/dev/arrokoth/phicreator/chart/phi/chart/objects/LineSpeedEvent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PhiChart/src/main/java/dev/arrokoth/phicreator/chart/phi/chart/objects/Note.java" beforeDir="false" afterPath="$PROJECT_DIR$/PhiChart/src/main/java/dev/arrokoth/phicreator/chart/phi/chart/objects/Note.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PhiChart/src/main/resources/rrharil_music.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PhiPlayer/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/PhiPlayer/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PhiPlayer/src/main/java/dev/arrokoth/phicreator/player/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/PhiPlayer/src/main/java/dev/arrokoth/phicreator/player/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/dev/arrokoth/phicreator/phi/editor/Project.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dev/arrokoth/phicreator/phi/editor/Project.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dev/arrokoth/phicreator/phi/level/Level.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dev/arrokoth/phicreator/phi/simulator/Simulator.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dev/arrokoth/phicreator/phi/simulator/SimulatorClient.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -137,13 +146,28 @@
       <recent name="E:\PhiCreator\src\main\resources\textures" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\PhiCreator\PhiPlayer\src\main\resources\textures" />
       <recent name="E:\PhiCreator\src\main\java\dev\arrokoth\phicreator\frame" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="dev.arrokoth.phicreator.chart.phi.chart.objects" />
       <recent name="dev.arrokoth.phicreator.phi.chart.event" />
     </key>
   </component>
-  <component name="RunManager" selected="应用程序.PhiCreator">
+  <component name="RunManager" selected="应用程序.Main">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dev.arrokoth.phicreator.player.Main" />
+      <module name="PhiCreator.PhiPlayer.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="dev.arrokoth.phicreator.player.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="PhiCreator" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="ALTERNATIVE_JRE_PATH" value="11" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
@@ -183,7 +207,13 @@
     <list>
       <item itemvalue="Gradle.PhiCreator [build]" />
       <item itemvalue="应用程序.PhiCreator" />
+      <item itemvalue="应用程序.Main" />
     </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="应用程序.Main" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="应用程序级" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -264,7 +294,14 @@
       <option name="project" value="LOCAL" />
       <updated>1677533947235</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Simplest things">
+      <created>1677534390234</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1677534390234</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
